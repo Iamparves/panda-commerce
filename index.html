@@ -10,7 +10,125 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide heroBanner" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row gx-5 d-flex align-items-center">
+                  <div class="col-7">
+                    <div class="banner__card">
+                      <h2 class="text-uppercase">
+                        Mi LED TV 4A PRO 32
+                      </h2>
+                      <p class="mb-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                      </p>
+                      <h3>$1289</h3>
+                      <a href="#" class="btn btn-primary">Buy now</a>
+                    </div>
+                  </div>
+                  <div class="col-5"><img src="img/banner-images/tv.png" class="d-block w-100" alt="..."></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-5 d-flex align-items-center">
+                  <div class="col-7">
+                    <div class="banner__card">
+                      <h2 class="text-uppercase">
+                        Mi LED TV 4A PRO 32
+                      </h2>
+                      <p class="mb-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                      </p>
+                      <h3>$1289</h3>
+                      <a href="#" class="btn btn-primary">Buy now</a>
+                    </div>
+                  </div>
+                  <div class="col-5"><img src="img/banner-images/headphone.png" class="d-block w-100" alt="..."></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row gx-5 d-flex align-items-center">
+                  <div class="col-7">
+                    <div class="banner__card">
+                      <h2 class="text-uppercase">
+                        Mi LED TV 4A PRO 32
+                      </h2>
+                      <p class="mb-4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature.
+                      </p>
+                      <h3>$1289</h3>
+                      <a href="#" class="btn btn-primary">Buy now</a>
+                    </div>
+                  </div>
+                  <div class="col-5"><img src="img/banner-images/xbox.png" class="d-block w-100" alt="..."></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="categories py-5">
+        <div class="container">
+          <div class="mb-4">
+            <h4>Categories</h4>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <div class="categories__card watch d-flex align-items-center justify-content-around bg-dark rounded-3 p-3">
+                <h2 class="text-white">Watch</h2>
+                <img src="img/categories/watch.png" alt="">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="categories__card bag d-flex align-items-center justify-content-around bg-dark rounded-3 p-3">
+                <h2 class="text-white">Watch</h2>
+                <img src="img/categories/bag.png" alt="">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="categories__card shoes d-flex align-items-center justify-content-around bg-dark rounded-3 p-3">
+                <h2 class="text-white">Watch</h2>
+                <img src="img/categories/shoes.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
 
 
     <!-- Bootstrap Bundle with Popper -->

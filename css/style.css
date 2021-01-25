@@ -1,0 +1,34 @@
+.heroBanner{
+    background: #FEEAE9;
+    padding: 80px 100px;
+    border-radius: 20px;
+}
+
+.heroBanner .carousel-indicators li{
+    border: 0;
+    height: 10px;
+    width: 15px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.heroBanner .carousel-indicators li.active{
+    background: #FF589B;
+    width: 30px;
+}
+
+.categories__card{}
+
+.categories__card.watch{
+    background: linear-gradient(145deg, #FF9C35,#FFD019);
+}
+.categories__card.bag{
+    background: linear-gradient(145deg, #FF5898,#FF136F);
+}
+.categories__card.shoes{
+    background: linear-gradient(145deg, #4289FF,#3F07F8);
+}
+
+.categories__card img{
+    width: 120px;
+}
